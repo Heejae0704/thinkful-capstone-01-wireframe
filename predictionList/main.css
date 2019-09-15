@@ -50,13 +50,13 @@
   
   article {
     padding: 30px 15px;
-    background-color: #ddd;
+    background-color: #bbb;
     display: flex;
     justify-content: flex-start;
   }
   
   article:nth-child(even) {
-    background-color: #bbb;
+    background-color: #ddd;
   }
 
   .comments-name {
