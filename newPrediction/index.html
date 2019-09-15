@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <title>iToldYouSo</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+      <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+
+  <body>
+    <nav role="navigation">Nav</nav>
+    <main role="main">
+      <header>
+        <h1>New Prediction</h1>
+      </header>
+      <section>
+        <form id="new-prediction">
+          <div class="form-section">
+            <fieldset>
+              <legend>Tell us your prediction</legend>
+              <input type="text" name="prediction-who" placeholder="someone or something" required> is going to <input type="text" name="prediction-what" placeholder="be/become/do something" required> by <input type="date" name="prediction-when" min="2019-09-15" required>
+            </fieldset>
+          </div>
+          <div class="form-section">
+            <label for="prediction-commentary">Commentary</label>
+            <textarea name="prediction-commentary" rows="10" placeholder="background, context or reason of your prediction"></textarea>
+          </div>
+          <div class="form-section">
+            <fieldset>
+              <legend>Watchers list (optional): up to three email addresses of your friends to be notified</legend>
+              <input type="email" name="watcher-1" placeholder="abc@email.com"><br>
+              <input type="email" name="watcher-2" placeholder="ghj@email.com"><br>
+              <input type="email" name="watcher-3" placeholder="xyz@email.com">
+            </fieldset>
+          </div>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </form>
+      </section>
+    </main>
+  </body>
+
+</html>

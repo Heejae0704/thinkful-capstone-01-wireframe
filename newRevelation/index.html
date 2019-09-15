@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <title>iToldYouSo</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+      <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+
+  <body>
+    <nav role="navigation">Nav</nav>
+    <main role="main">
+      <header>
+        <h1>Log the revelation</h1>
+      </header>
+      <section>
+        <form id="new-revelation">
+            <div class="form-section">
+                <h2>"Amazon is going to launch Kindle series in Korea by December 25th 2020"</h2>
+              </div>
+          <div class="form-section">
+            <fieldset>
+              <legend>What actually happened?</legend>
+              <textarea name="revelation-text" rows="10"></textarea><br>
+              <div id="wrapper">
+                <label for="is-prediction-correct">Does it make your prediction correct?</label>
+                <p>
+                <input type="radio" name="is-prediction-correct" checked>Yes</input>
+                </p>
+                <p>
+                <input type="radio" name="is-prediction-correct">No</input>
+                </p>
+                </div>
+            </fieldset>
+          </div>
+          <div class="form-section">
+            <label for="revelation-evidence">Supporting Evidence (link)</label>
+            <input class="revelation-evidence" type="text" name="revelation-evidence">
+          </div>
+          <div class="form-section">
+            <fieldset>
+              <legend>Watchers list (optional): up to three email addresses of your friends to be notified</legend>
+              <input type="email" name="watcher-1" placeholder="abc@email.com"><br>
+              <input type="email" name="watcher-2" placeholder="ghj@email.com"><br>
+              <input type="email" name="watcher-3" placeholder="xyz@email.com">
+            </fieldset>
+          </div>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </form>
+      </section>
+    </main>
+  </body>
+
+</html>
